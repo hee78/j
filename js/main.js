@@ -21,6 +21,27 @@ $(document).ready(function(){
     });
   });
 
+  $(".social_wrap>li").hover(function(){
+    $(this).css({
+      color:"#555",
+    });
+  },function(){
+    $(this).css({
+      color:"#ccc"
+    });
+  });
+
+  $(".footer_inner .down_ico a").hover(function(){
+    $(this).css({
+      color:"#009c9d",
+      // fontWeight:"500"
+    });
+  },function(){
+    $(this).css({
+      color:"#555"
+    });
+  });
+
 }); /* 제이쿼리 끝 */
 
 

@@ -137,7 +137,7 @@ h1{
   display: flex;
   justify-content: center;
 }
-.footer_inner i{
+.footer_inner .down_ico{
   line-height: 300px;
   margin-left: 50px;
 }

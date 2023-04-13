@@ -1,0 +1,118 @@
+@charset "utf-8";
+:root {
+  --main-bg-color: #555
+}
+/* 메인메뉴 header 영역 시작 */
+.header_wrap{
+  width: 100%;
+  height: 200px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 999;
+}
+.header_wrap .inner{
+  width: calc(100% - 150px);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+/* 메인메뉴 시작 */
+.gnb_wrap{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  text-align: center;
+  line-height: 200px;
+  font-weight: 400;
+  color: var(--main-bg-color);
+}
+.gnb_wrap div{
+  margin-right: 50px;
+}
+.gnb_wrap div:last-child{
+  margin-right: 30px;
+}
+/* 메인메뉴 끝 */
+.main_logo_wrap{
+  width: 200px;
+  height: 200px;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  line-height: 200px;
+}
+/* .main_logo_wrap a img{
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+} */
+/* 소셜로고: 상단왼쪽 시작 */
+.social_wrap{
+  display: flex;
+  justify-content: space-between;
+  line-height: 200px;
+  color: #ccc;
+}
+.social_wrap li{
+  font-size: 20px;
+  margin-left: 20px;
+}
+.social_wrap li:last-child{
+  width: 20px;
+  height: 100%;
+}
+.social_wrap li span{
+  position: absolute;
+  left: -99999px;
+}
+/* 메인메뉴 header 영역 끝 */
+
+/* 콘텐츠_01 cont_01_wrap 영역 시작 */
+.cont_01_wrap{
+  width: calc(100% - 100px);
+  height: 100%;
+  margin: 10px auto;
+  overflow: hidden;
+}
+.cont_01_wrap .cont_list_01{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.cont_01_wrap .cont_list_01 .cont_item{
+  width: calc(100% / 4 - 10px);
+  height: 100%;
+}
+.cont_01_wrap .cont_list_01 .cont_item figure{
+  width: 100%;
+  height: 100%;
+}
+.cont_01_wrap .cont_list_01 .cont_item figure img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* 콘텐츠_01 cont_01_wrap 영역 끝 */
+
+/* footer 영역 시작 */
+.footer_inner{
+  width: 100%;
+  height: 300px;
+  color: #555;
+  text-align: center;
+  line-height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.footer_inner i{
+  line-height: 300px;
+  margin-left: 50px;
+}
+/* footer 영역 끝 */

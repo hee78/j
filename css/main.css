@@ -89,6 +89,32 @@ h1{
 .cont_01_wrap .cont_list_01 .cont_item{
   width: calc(100% / 4 - 10px);
   height: 100%;
+  position: relative;
+}
+.cont_01_wrap .cont_list_01 .cont_item div{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  padding: 100px 30px;
+  background: #0000006c;
+  color: #fff;
+
+  opacity: 0;
+  transition: 1s;
+}
+.cont_01_wrap .cont_list_01 .cont_item div h4{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.cont_01_wrap .cont_list_01 .cont_item div p{
+  font-size: 16px;
+  font-weight: 100;
+}
+.cont_01_wrap .cont_list_01 .cont_item:hover div{
+  opacity: 1;
 }
 .cont_01_wrap .cont_list_01 .cont_item figure{
   width: 100%;

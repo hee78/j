@@ -13,7 +13,7 @@ $(document).ready(function(){
   $(".gnb_wrap>div").hover(function(){
     $(this).css({
       color:"#009c9d",
-      fontWeight:"500"
+      // fontWeight:"500"
     });
   },function(){
     $(this).css({
